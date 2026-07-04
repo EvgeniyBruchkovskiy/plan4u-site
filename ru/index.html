@@ -908,6 +908,7 @@
     "footer.terms":{en:"Terms",es:"Términos",ru:"Условия",uk:"Умови"}
   };
 
+  var STORE={en:"https://apps.apple.com/us/app/plan4u/id6782844465?l=en",es:"https://apps.apple.com/es/app/plan4u/id6782844465?l=es",ru:"https://apps.apple.com/ua/app/plan4u/id6782844465?l=ru",uk:"https://apps.apple.com/ua/app/plan4u/id6782844465?l=uk"};
   var cur="en";
   var phone=document.getElementById('phone');
   var themeCap=document.getElementById('themeCap');
@@ -930,6 +931,7 @@
       if(el.hasAttribute('data-i18n-html')) el.innerHTML=v; else el.textContent=v;
     });
     langCur.textContent=lang.toUpperCase();
+    var _s=STORE[lang]||STORE.en; document.querySelectorAll("a.btn-app, a.nav-cta").forEach(function(a){a.href=_s;});
     document.querySelectorAll('#langMenu li').forEach(function(li){
       li.classList.toggle('sel', li.getAttribute('data-lang')===lang);
     });
