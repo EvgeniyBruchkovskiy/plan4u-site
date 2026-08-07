@@ -909,6 +909,30 @@
   };
 
   var STORE={en:"https://apps.apple.com/us/app/plan4u/id6782844465?l=en",es:"https://apps.apple.com/es/app/plan4u/id6782844465?l=es",ru:"https://apps.apple.com/ua/app/plan4u/id6782844465?l=ru",uk:"https://apps.apple.com/ua/app/plan4u/id6782844465?l=uk"};
+  // App Store campaign attribution. Apple reads ?pt=<provider>&ct=<campaign>
+  // on App Store links and reports installs per campaign in App Store Connect
+  // -> Analytics -> Acquisition -> Campaigns. PT is the 6-digit provider id
+  // taken from any campaign link generated there; without it Apple ignores ct,
+  // so while PT is empty the links stay exactly as they were.
+  var PT="120975298";
+  function qparam(name){
+    var m=new RegExp('[?&]'+name+'=([^&#]*)').exec(location.search);
+    return m?decodeURIComponent(m[1].replace(/\+/g,' ')):'';
+  }
+  function campaignToken(){
+    var raw=qparam('ct')||[qparam('utm_source'),qparam('utm_campaign')].filter(Boolean).join('_');
+    try{
+      if(raw) sessionStorage.setItem('plan4u_ct',raw);
+      else raw=sessionStorage.getItem('plan4u_ct')||'';
+    }catch(e){}
+    raw=(raw||'site_direct').toLowerCase().replace(/[^a-z0-9_]+/g,'_').replace(/^_+/,'').slice(0,40).replace(/_+$/,'');
+    return raw||'site_direct';
+  }
+  var CT=campaignToken();
+  function storeUrl(lang){
+    var u=STORE[lang]||STORE.en;
+    return PT?(u+"&pt="+encodeURIComponent(PT)+"&ct="+encodeURIComponent(CT)+"&mt=8"):u;
+  }
   var cur="en";
   var phone=document.getElementById('phone');
   var themeCap=document.getElementById('themeCap');
@@ -931,7 +955,7 @@
       if(el.hasAttribute('data-i18n-html')) el.innerHTML=v; else el.textContent=v;
     });
     langCur.textContent=lang.toUpperCase();
-    var _s=STORE[lang]||STORE.en; document.querySelectorAll("a.btn-app, a.nav-cta").forEach(function(a){a.href=_s;});
+    var _s=storeUrl(lang); document.querySelectorAll("a.btn-app, a.nav-cta").forEach(function(a){a.href=_s;});
     document.querySelectorAll('#langMenu li').forEach(function(li){
       li.classList.toggle('sel', li.getAttribute('data-lang')===lang);
     });
