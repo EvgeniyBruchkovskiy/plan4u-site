@@ -112,6 +112,9 @@
 
   /* hero */
   .hero{position:relative; padding:72px 0 40px; overflow:hidden}
+  /* On phones the 72px gap under the fixed nav pushed the headline
+     most of the way down the first screen. */
+  @media(max-width:720px){.hero{padding-top:18px}}
   .hero-grid{display:grid; grid-template-columns:1.02fr .98fr; gap:40px; align-items:center}
   @media(max-width:900px){.hero-grid{grid-template-columns:1fr; gap:52px}}
   .hero h1{margin:20px 0 0}
@@ -956,6 +959,18 @@
     var u=STORE[lang]||STORE.en;
     return PT?(u+"&pt="+encodeURIComponent(PT)+"&ct="+encodeURIComponent(CT)+"&mt=8"):u;
   }
+  // In-app browsers (Instagram, Facebook) sometimes swallow a plain tap on an
+  // apps.apple.com link and nothing happens at all. Driving the navigation from
+  // script instead of letting the anchor do it gets through where the anchor
+  // does not.
+  document.addEventListener('click', function(e){
+    var a = e.target && e.target.closest ? e.target.closest('a.btn-app, a.nav-cta') : null;
+    if(!a) return;
+    var href = a.getAttribute('href');
+    if(!href || href.indexOf('apps.apple.com') === -1) return;
+    e.preventDefault();
+    window.location.assign(href);
+  });
   var cur="en";
   var phone=document.getElementById('phone');
   var themeCap=document.getElementById('themeCap');
