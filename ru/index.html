@@ -955,7 +955,18 @@
     return raw||'site_direct';
   }
   var CT=campaignToken();
+  // Instagram's and Facebook's in-app browsers refuse to hand an
+  // apps.apple.com link over to the App Store — the tap simply does nothing.
+  // This short link is built to break out of them; its target already carries
+  // pt/ct, so attribution survives. Everywhere else the normal link is used,
+  // which keeps the per-source ct token intact.
+  var INAPP_STORE_LINK="https://linktw.in/UWXxsH";
+  function isInAppBrowser(){
+    var ua=navigator.userAgent||"";
+    return /Instagram/i.test(ua) || /FBAN|FBAV|FB_IAB/i.test(ua);
+  }
   function storeUrl(lang){
+    if(isInAppBrowser()) return INAPP_STORE_LINK;
     var u=STORE[lang]||STORE.en;
     return PT?(u+"&pt="+encodeURIComponent(PT)+"&ct="+encodeURIComponent(CT)+"&mt=8"):u;
   }
