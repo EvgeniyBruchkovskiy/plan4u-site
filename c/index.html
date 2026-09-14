@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#7c5cfc">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Crect%20width%3D%2224%22%20height%3D%2224%22%20rx%3D%226%22%20fill%3D%22%237c5cfc%22%2F%3E%3Cpath%20d%3D%22M12%203C12.7%208%2013.6%209.3%2021%2012C13.6%2014.7%2012.7%2016%2012%2021C11.3%2016%2010.4%2014.7%203%2012C10.4%209.3%2011.3%208%2012%203Z%22%20fill%3D%22white%22%2F%3E%3C%2Fsvg%3E">
+<title>Plan4U — calendar invite</title>
+<style>
+  :root{
+    --ink:#111114; --ink-soft:#3a3a40; --paper:#ffffff; --surface:#f7f7f8; --surface-2:#f0f0f2;
+    --secondary:#8a8a8e; --tertiary:#b9b9be; --hairline:#ececee; --lav:#7c5cfc;
+    --font:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",system-ui,"Segoe UI",Roboto,sans-serif;
+    --mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
+    --shadow:0 30px 70px -30px rgba(24,20,52,.28),0 10px 28px -16px rgba(24,20,52,.22);
+    --accent:#7c5cfc; --accent-wash:#e7e0ff;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --ink:#f4f4f6; --ink-soft:#c9c9d0; --paper:#0e0e12; --surface:#1a1a20; --surface-2:#24242b;
+      --secondary:#9a9aa3; --tertiary:#6a6a74; --hairline:#2a2a31; --accent-wash:#2a2450; }
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0; background:var(--paper); color:var(--ink); font-family:var(--font); -webkit-font-smoothing:antialiased; line-height:1.5}
+  .wrap{max-width:520px; margin:0 auto; padding:28px 18px 60px}
+  .brand{display:flex; align-items:center; gap:10px; text-decoration:none; color:var(--ink); font-weight:650; font-size:15px; margin-bottom:26px}
+  .brand svg{width:26px; height:26px}
+  .card{background:var(--surface); border-radius:22px; padding:26px 22px 22px; box-shadow:var(--shadow); border:1px solid var(--hairline); text-align:center}
+  .badge{width:84px; height:84px; border-radius:26px; background:var(--accent-wash); display:flex; align-items:center; justify-content:center; font-size:42px; margin:0 auto 14px}
+  .kicker{font-size:12.5px; font-weight:600; color:var(--secondary); text-transform:uppercase; letter-spacing:.04em}
+  h1{font-size:clamp(24px,5vw,30px); line-height:1.15; margin:6px 0 6px; letter-spacing:-.01em; overflow-wrap:anywhere}
+  .meta{color:var(--secondary); font-size:14.5px}
+  .code{display:inline-block; margin:18px 0 6px; font-family:var(--mono); font-size:26px; font-weight:650; letter-spacing:.12em; padding:10px 18px; border-radius:14px; background:var(--paper); border:1px solid var(--hairline); color:var(--ink)}
+  .hint{font-size:13px; color:var(--secondary); margin:0 0 18px}
+  .btn{display:flex; align-items:center; justify-content:center; gap:8px; width:100%; font:inherit; font-size:15.5px; font-weight:650; padding:14px; border-radius:14px; text-decoration:none; margin-top:10px; border:1px solid transparent}
+  .btn-main{background:var(--ink); color:var(--paper)}
+  .btn-alt{background:var(--surface-2); color:var(--ink); border-color:var(--hairline)}
+  .empty{padding:40px 10px; text-align:center; color:var(--secondary)}
+  .skeleton{height:14px; border-radius:7px; background:var(--surface-2); margin:10px auto; animation:pulse 1.2s ease-in-out infinite}
+  @keyframes pulse{50%{opacity:.5}}
+  .lang{position:absolute; right:18px; top:24px; display:flex; gap:6px}
+  .lang button{font:inherit; font-size:12px; font-weight:650; background:none; border:1px solid var(--hairline); color:var(--secondary); border-radius:999px; padding:4px 9px; cursor:pointer}
+  .lang button.on{color:var(--ink); border-color:var(--ink)}
+  @media (max-width:420px){ .lang{position:static; margin:-10px 0 16px; justify-content:flex-end} }
+  .foot{margin-top:24px; text-align:center; font-size:13.5px; color:var(--secondary)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="brand" href="https://getplan4u.com/">
+    <svg viewBox="0 0 24 24"><rect width="24" height="24" rx="6" fill="#7c5cfc"/><path d="M12 3C12.7 8 13.6 9.3 21 12C13.6 14.7 12.7 16 12 21C11.3 16 10.4 14.7 3 12C10.4 9.3 11.3 8 12 3Z" fill="white"/></svg>
+    Plan4U
+  </a>
+  <div class="lang" id="lang"></div>
+  <div class="card" id="card">
+    <div class="skeleton" style="width:84px; height:84px; border-radius:26px"></div>
+    <div class="skeleton" style="width:60%; height:26px"></div>
+    <div class="skeleton" style="width:40%"></div>
+  </div>
+  <div class="foot" data-i18n="foot"></div>
+</div>
+<script>
+(function(){
+  var API = "https://europe-west1-plan4u-64c47.cloudfunctions.net";
+  var STORE = "https://apps.apple.com/us/app/plan4u/id6782844465";
+  var I18N = {
+    en:{ inv:"You're invited to a shared calendar", by:"by @%s", members:"%n members", code:"Your invite code", hint:"Enter it in Plan4U → Profile → Shared calendars → Join with code.",
+         open:"Open in Plan4U", get:"Get Plan4U on the App Store", notfound:"This invite link isn't valid anymore.", foot:"Plan4U is a calendar for events, tasks and the people you plan them with." },
+    ru:{ inv:"Вас приглашают в общий календарь", by:"от @%s", members:"участников: %n", code:"Ваш код приглашения", hint:"Введите его в Plan4U → Профиль → Общие календари → Войти по коду.",
+         open:"Открыть в Plan4U", get:"Скачать Plan4U в App Store", notfound:"Эта ссылка-приглашение больше не действует.", foot:"Plan4U — календарь для событий, задач и людей, с которыми вы их планируете." },
+    uk:{ inv:"Вас запрошують до спільного календаря", by:"від @%s", members:"учасників: %n", code:"Ваш код запрошення", hint:"Введіть його в Plan4U → Профіль → Спільні календарі → Приєднатися за кодом.",
+         open:"Відкрити в Plan4U", get:"Завантажити Plan4U в App Store", notfound:"Це посилання-запрошення більше не дійсне.", foot:"Plan4U — календар для подій, завдань і людей, з якими ви їх плануєте." },
+    es:{ inv:"Te invitan a un calendario compartido", by:"de @%s", members:"%n miembros", code:"Tu código de invitación", hint:"Introdúcelo en Plan4U → Perfil → Calendarios compartidos → Unirse con código.",
+         open:"Abrir en Plan4U", get:"Descargar Plan4U en el App Store", notfound:"Este enlace de invitación ya no es válido.", foot:"Plan4U es un calendario para eventos, tareas y las personas con las que los planeas." }
+  };
+  var COLORS = { mint:"#2fb56f", blue:"#4f8df7", lavender:"#7c5cfc", peach:"#ff8a4c", yellow:"#e0a400", pink:"#ff5a8a", graphite:"#6b6b73" };
+  var params = new URLSearchParams(location.search);
+  var code = (params.get("code") || "").toUpperCase().replace(/[^A-Z0-9]/g, "");
+  var lang = (function(){
+    var saved = null; try { saved = localStorage.getItem("plan4u.lang"); } catch(e){}
+    if (saved && I18N[saved]) return saved;
+    var nav = (navigator.language || "en").slice(0,2).toLowerCase();
+    return I18N[nav] ? nav : "en";
+  })();
+  var data = null;
+  function t(k){ return I18N[lang][k]; }
+  function esc(s){ return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
+  function render(){
+    document.documentElement.lang = lang;
+    document.querySelectorAll("[data-i18n]").forEach(function(el){ el.textContent = t(el.getAttribute("data-i18n")); });
+    var box = document.getElementById("lang");
+    box.innerHTML = Object.keys(I18N).map(function(k){ return '<button data-lang="' + k + '" class="' + (k === lang ? "on" : "") + '">' + k.toUpperCase() + "</button>"; }).join("");
+    box.querySelectorAll("button").forEach(function(b){ b.onclick = function(){ lang = b.getAttribute("data-lang"); try { localStorage.setItem("plan4u.lang", lang); } catch(e){} render(); }; });
+    var card = document.getElementById("card");
+    if (data === null) return;
+    if (data === false) { card.innerHTML = '<div class="empty">' + esc(t("notfound")) + "</div>"; return; }
+    var accent = COLORS[data.colorRaw] || COLORS.lavender;
+    card.innerHTML =
+      '<div class="badge" style="background:' + accent + '22">' + esc(data.emoji || "📅") + "</div>" +
+      '<div class="kicker">' + esc(t("inv")) + "</div>" +
+      "<h1>" + esc(data.name) + "</h1>" +
+      '<div class="meta">' + esc(t("by").replace("%s", data.ownerNickname || "plan4u")) + " · " + esc(t("members").replace("%n", data.memberCount || 1)) + "</div>" +
+      '<div class="code">' + esc(code) + "</div>" +
+      '<p class="hint">' + esc(t("code")) + ". " + esc(t("hint")) + "</p>" +
+      '<a class="btn btn-main" href="plannyopp://join?code=' + encodeURIComponent(code) + '">' + esc(t("open")) + "</a>" +
+      '<a class="btn btn-alt" href="' + STORE + '">' + esc(t("get")) + "</a>";
+  }
+  render();
+  if (!code) { data = false; render(); return; }
+  fetch(API + "/calendarByCode?code=" + encodeURIComponent(code))
+    .then(function(r){ if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function(j){ data = j; document.title = j.name + " — Plan4U"; render(); })
+    .catch(function(){ data = false; render(); });
+})();
+</script>
+</body>
+</html>
