@@ -94,11 +94,11 @@ Ningún plan semanal sobrevive intacto: un cliente adelanta una entrega, a tu hi
 
 ## Cómo planificar tu semana con Plan4U
 
-Plan4U es un calendario, agenda y gestor de tareas para iPhone. Para vaciar la cabeza, apúntalo todo en la **Bandeja de entrada** o en tus propias listas, y mueve las tareas por el tablero: Ideas, En curso, Listo y **Algún día** para lo que puede esperar. Cuando elijas tus prioridades, programa la tarea desde el tablero en un día concreto. Si escribes «Revisión con el equipo el viernes a las 16:00», la app detecta la fecha y la hora sola.
+Plan4U es un calendario, agenda y gestor de tareas para iPhone. Cuando elijas tus prioridades, ponle a cada una un día concreto. Si escribes «Revisión con el equipo el viernes a las 16:00», la app detecta la fecha y la hora sola.
 
 Para ver la semana entera, abre la vista Agenda y cambia su franja a semana; también tienes Mes, Año y vistas por día y en lista. En la línea de tiempo del día, mantén pulsado un bloque y arrástralo para moverlo, o tira de su borde inferior para alargarlo. La opción de buscar un hueco libre te salva el miércoles. Eventos y tareas ilimitados, un recordatorio por evento y marcar tareas como hechas son gratis.
 
-Con Premium, haz que la revisión semanal se repita cada domingo, añade banderas de prioridad y colores, comparte un calendario para organizar la semana en familia, sincroniza con el Calendario de Apple, usa el widget de la pantalla de inicio y añade un segundo recordatorio. Plan4U se descarga gratis en el App Store.
+Con Premium, vacía la cabeza en el tablero de tareas: apúntalo todo en la **Bandeja de entrada** o en tus propias listas, mueve las tareas por Ideas, En curso, Listo y **Algún día** para lo que puede esperar, y prográmalas desde el tablero en un día concreto. Además, haz que la revisión semanal se repita cada domingo, añade banderas de prioridad y colores, comparte un calendario para organizar la semana en familia, sincroniza con el Calendario de Apple, usa el widget de la pantalla de inicio y añade un segundo recordatorio. Plan4U se descarga gratis en el App Store.
 
 ## Preguntas frecuentes
 

@@ -100,11 +100,11 @@ Rozwiązaniem jest połączenie macierzy z metodą [time blocking, czyli blokowa
 
 Plan4U to kalendarz, planer i lista zadań na iPhone'a, a cztery ćwiartki dobrze się w nim odwzorowują.
 
-Wrzuć wszystko do Inbox albo do własnych list zadań. Gdy wpiszesz tytuł z datą, na przykład „Zadzwonić do dentysty jutro o 15”, aplikacja sama rozpozna dzień i godzinę. Na tablicy zadań każde zadanie ma status Ideas, In progress lub Done, a to, czego z ćwiartki 4 nie chcesz jeszcze kasować, trafia do **Someday**: odłożonego statusu, którego nie przeglądasz codziennie.
+Gdy wpiszesz tytuł z datą, na przykład „Zadzwonić do dentysty jutro o 15”, aplikacja sama rozpozna dzień i godzinę. Zadania z ćwiartki 4 możesz po prostu usunąć.
 
-Zadania z ćwiartki 2 zaplanujesz prosto z tablicy na konkretny dzień, a potem na osi czasu dnia przytrzymasz blok i przeciągniesz go na właściwą godzinę. Dodaj przypomnienie przed wydarzeniem i odhacz zadanie, gdy je skończysz.
+Zadaniu z ćwiartki 2 nadasz konkretny dzień, a potem na osi czasu dnia przytrzymasz blok i przeciągniesz go na właściwą godzinę. Dodaj przypomnienie przed wydarzeniem i odhacz zadanie, gdy je skończysz.
 
-W wersji Premium dostajesz **flagi priorytetu** (niski, średni, wysoki i pilny), a pilne zadania przychodzą jako pilne powiadomienia (time-sensitive), idealne dla ćwiartki 1. Do ćwiartki 3 służy **Send to…**: przekazujesz zadanie innej osobie z wiadomością, ona dostaje jedno powiadomienie push, a dyskusja toczy się w wątku zadania. Premium to także zadania cykliczne, synchronizacja z Kalendarzem Apple i widżet na ekranie początkowym. Plan4U możesz pobrać za darmo z App Store.
+W wersji Premium dostajesz **tablicę zadań**: wrzucasz wszystko do Inbox albo do własnych list, nadajesz zadaniom status Ideas, In progress lub Done, to, czego z ćwiartki 4 nie chcesz kasować, odkładasz do **Someday**, a zadania z tablicy planujesz na konkretny dzień. Do tego dochodzą **flagi priorytetu** (niski, średni, wysoki i pilny), a pilne zadania przychodzą jako pilne powiadomienia (time-sensitive), idealne dla ćwiartki 1. Do ćwiartki 3 służy **Send to…**: przekazujesz zadanie innej osobie z wiadomością, ona dostaje jedno powiadomienie push, a dyskusja toczy się w wątku zadania. Premium to także zadania cykliczne, synchronizacja z Kalendarzem Apple i widżet na ekranie początkowym. Plan4U możesz pobrać za darmo z App Store.
 
 ## Najczęściej zadawane pytania
 

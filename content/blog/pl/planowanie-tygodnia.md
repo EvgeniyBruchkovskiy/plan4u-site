@@ -97,11 +97,11 @@ Zarezerwuj dziesięć minut w środę po południu i odpowiedz na trzy pytania: 
 
 ## Jak zaplanować tydzień w Plan4U
 
-Plan4U to kalendarz, planer i lista zadań na iPhone'a. Przy wyrzucaniu wszystkiego z głowy wpisuj zadania do **Inbox** albo do własnych list, a potem przesuwaj je po tablicy zadań: Ideas, In progress, Done oraz **Someday** na to, co może poczekać. Gdy wybierzesz priorytety, zaplanuj zadanie z tablicy na konkretny dzień. Wystarczy wpisać tytuł z datą, np. „Przegląd z zespołem w piątek o 16”, a aplikacja sama rozpozna dzień i godzinę.
+Plan4U to kalendarz, planer i lista zadań na iPhone'a. Gdy wybierzesz priorytety, przypisz każdy do konkretnego dnia. Wystarczy wpisać tytuł z datą, np. „Przegląd z zespołem w piątek o 16”, a aplikacja sama rozpozna dzień i godzinę.
 
 Cały tydzień zobaczysz w widoku Schedule, przełączając jego pasek na tydzień; są też widoki Month, Day, List i Year. Na osi dnia przytrzymaj blok i przeciągnij, żeby go przesunąć, albo pociągnij za dolną krawędź, żeby go wydłużyć. W środę przyda się opcja znalezienia wolnego terminu. Nielimitowane wydarzenia i zadania, jedno przypomnienie na wydarzenie i odhaczanie zadań są za darmo.
 
-W Premium ustawisz cotygodniowy przegląd powtarzany w każdą niedzielę, dodasz flagi priorytetu i kolory wydarzeń, udostępnisz kalendarz, żeby planować tydzień razem z rodziną, zsynchronizujesz się z Kalendarzem Apple, skorzystasz z widżetu na ekranie początkowym i drugiego przypomnienia. Aplikację pobierzesz za darmo z App Store.
+W Premium wyrzucisz wszystko z głowy na tablicę zadań: wpiszesz zadania do **Inbox** albo do własnych list, przesuniesz je między Ideas, In progress, Done oraz **Someday** na to, co może poczekać, i zaplanujesz zadanie z tablicy na konkretny dzień. Ustawisz też cotygodniowy przegląd powtarzany w każdą niedzielę, dodasz flagi priorytetu i kolory wydarzeń, udostępnisz kalendarz, żeby planować tydzień razem z rodziną, zsynchronizujesz się z Kalendarzem Apple, skorzystasz z widżetu na ekranie początkowym i drugiego przypomnienia. Aplikację pobierzesz za darmo z App Store.
 
 ## Najczęściej zadawane pytania
 

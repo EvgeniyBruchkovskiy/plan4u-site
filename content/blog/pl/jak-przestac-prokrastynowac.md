@@ -91,11 +91,11 @@ Jeśli prokrastynacja jest stała, odbija się na pracy, nauce albo relacjach i 
 
 ## Jak pokonać prokrastynację z Plan4U
 
-Plan4U to kalendarz, planer i lista zadań na iPhone'a, do pobrania za darmo z App Store. Zacznij od wpisania odkładanej sprawy do **Inbox** albo do jednej z własnych list. Potem otwórz zadanie i dodaj w nim **Checklist**, żeby „ogarnąć prezentację” zamieniło się w sześć małych kroków do odhaczenia.
+Plan4U to kalendarz, planer i lista zadań na iPhone'a, do pobrania za darmo z App Store. Zacznij od wpisania odkładanej sprawy. Potem otwórz zadanie i dodaj w nim **Checklist**, żeby „ogarnąć prezentację” zamieniło się w sześć małych kroków do odhaczenia.
 
-Na tablicy zadań przesuwasz sprawy między Ideas, In progress, Done i **Someday**, a z tablicy możesz zaplanować zadanie na konkretny dzień. Wystarczy też wpisać tytuł z datą, np. „Slajdy jutro o 19”, a aplikacja sama rozpozna dzień i godzinę. Na osi dnia przytrzymaj blok i przeciągnij go, gdy plany się zmienią, albo użyj opcji znalezienia wolnego terminu. Jedno przypomnienie na wydarzenie i opcjonalne poranne podsumowanie dnia są za darmo.
+Żeby dać zadaniu konkretny dzień, wystarczy wpisać tytuł z datą, np. „Slajdy jutro o 19”, a aplikacja sama rozpozna dzień i godzinę. Na osi dnia przytrzymaj blok i przeciągnij go, gdy plany się zmienią, albo użyj opcji znalezienia wolnego terminu. Jedno przypomnienie na wydarzenie i opcjonalne poranne podsumowanie dnia są za darmo.
 
-W Premium dostajesz flagi priorytetu (pilne przychodzą jako powiadomienia wrażliwe na czas), drugie przypomnienie, zadania powtarzalne, widżet na ekranie początkowym oraz możliwość zaproszenia kogoś do zadania: ta osoba widzi twoje postępy, a rozmawiacie w komentarzach do zadania.
+W Premium dostajesz tablicę zadań: wpisujesz sprawy do **Inbox** albo własnych list, przesuwasz je między Ideas, In progress, Done i **Someday**, a z tablicy planujesz zadanie na konkretny dzień. Do tego flagi priorytetu (pilne przychodzą jako powiadomienia wrażliwe na czas), drugie przypomnienie, zadania powtarzalne, widżet na ekranie początkowym oraz możliwość zaproszenia kogoś do zadania: ta osoba widzi twoje postępy, a rozmawiacie w komentarzach do zadania.
 
 ## Najczęściej zadawane pytania
 

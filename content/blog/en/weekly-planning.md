@@ -96,11 +96,11 @@ Set a ten-minute check-in for Wednesday afternoon. Ask three questions: which pr
 
 ## How to plan your week in Plan4U
 
-Plan4U is a calendar, planner and task app for iPhone. For the brain dump, add everything to the **Inbox** or your own task lists, then move items across the task board: Ideas, In progress, Done, and **Someday** for things that can wait. When you pick your weekly priorities, schedule a task from the board onto a specific day. You can type a title like "Team review Friday at 4 pm" and the date and time are picked up automatically.
+Plan4U is a calendar, planner and task app for iPhone. When you pick your weekly priorities, put each one on a specific day. You can type a title like "Team review Friday at 4 pm" and the date and time are picked up automatically.
 
 To see the whole week, open the Schedule view and switch its strip to week; Month, Day, List and Year views are there too. On the day timeline, hold and drag a block to move it, or drag its bottom edge to stretch it. The "find a free slot" option helps when Wednesday needs rescheduling. One reminder per event and ticking tasks off are free, as are unlimited events and tasks.
 
-With Premium, make your weekly review repeat every Sunday, add priority flags and event colors, share a calendar to plan the family week together, sync with Apple Calendar, use the Home Screen widget and add a second reminder. The app is free to download on the App Store.
+With Premium, the task board handles the brain dump: add everything to the **Inbox** or your own task lists, move items between Ideas, In progress, Done and **Someday** for things that can wait, and schedule a task from the board onto a specific day. Premium also lets you make your weekly review repeat every Sunday, add priority flags and event colors, share a calendar to plan the family week together, sync with Apple Calendar, use the Home Screen widget and add a second reminder. The app is free to download on the App Store.
 
 ## FAQ
 

@@ -89,11 +89,11 @@ If procrastination is constant, affects your work, studies or relationships, and
 
 ## How to beat procrastination with Plan4U
 
-Plan4U is a calendar, planner and task app for iPhone, free to download on the App Store. Start by capturing the task you keep avoiding in the **Inbox** or one of your own lists. Then open it and add a checklist inside the task, so "apply for that job" becomes six small steps you can tick off one at a time.
+Plan4U is a calendar, planner and task app for iPhone, free to download on the App Store. Start by adding the task you keep avoiding. Then open it and add a checklist inside the task, so "apply for that job" becomes six small steps you can tick off one at a time.
 
-On the task board, move things between Ideas, In progress, Done and **Someday**, and schedule a task from the board onto a specific day. You can also just type a title with a date, like "Draft the cover letter tomorrow at 9", and the app picks up the date and time. On the day timeline, hold and drag a block if plans shift, or use "find a free slot" to fit the task in. One reminder per event and an optional morning briefing with your day ahead are free too.
+Give it a specific day: just type a title with a date, like "Draft the cover letter tomorrow at 9", and the app picks up the date and time. On the day timeline, hold and drag a block if plans shift, or use "find a free slot" to fit the task in. One reminder per event and an optional morning briefing with your day ahead are free too.
 
-Premium adds priority flags (urgent ones arrive as time-sensitive notifications), a second reminder, repeating tasks, a Home Screen widget, and the option to invite someone into a task, so an accountability partner can see your progress and you can talk it over in the task's comments.
+Premium unlocks the task board: capture tasks in the **Inbox** or your own lists, move them between Ideas, In progress, Done and **Someday**, and schedule a task from the board onto a specific day. It also adds priority flags (urgent ones arrive as time-sensitive notifications), a second reminder, repeating tasks, a Home Screen widget, and the option to invite someone into a task, so an accountability partner can see your progress and you can talk it over in the task's comments.
 
 ## FAQ
 

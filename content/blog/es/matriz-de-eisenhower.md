@@ -97,11 +97,11 @@ La solución es combinarla con el [time blocking o bloques de tiempo](/es/blog/t
 
 ## Cómo usar la matriz de Eisenhower en Plan4U
 
-Plan4U es un calendario, agenda y gestor de tareas para iPhone, y los cuadrantes encajan en él de forma natural. Vuelca todo en la Bandeja de entrada o en tus propias listas. Si escribes «Llamar al dentista mañana a las 15:00», la app detecta la fecha y la hora sola. En el tablero de tareas, cada una pasa por Ideas, En curso y Listo; lo del cuadrante 4 que no quieras borrar va a **Algún día**, un estado aparcado que no revisas a diario.
+Plan4U es un calendario, agenda y gestor de tareas para iPhone, y los cuadrantes encajan en él de forma natural. Si escribes «Llamar al dentista mañana a las 15:00», la app detecta la fecha y la hora sola. Lo del cuadrante 4, simplemente bórralo.
 
-Para el cuadrante 2, programa la tarea desde el tablero en un día concreto y, en la línea de tiempo del día, mantén pulsado el bloque y arrástralo a su hora. Añade un recordatorio y márcala como hecha al terminar.
+Para el cuadrante 2, ponle a la tarea un día concreto y, en la línea de tiempo del día, mantén pulsado el bloque y arrástralo a su hora. Añade un recordatorio y márcala como hecha al terminar.
 
-Con Premium tienes **banderas de prioridad** (baja, media, alta y urgente), y las de nivel urgente llegan como notificaciones urgentes de iOS, que se saltan el resumen programado: ideales para el cuadrante 1. Para el cuadrante 3, **Enviar a…** te permite pasar una tarea a otra persona con un mensaje: recibe un solo aviso y podéis comentarla en el hilo de la propia tarea. Premium suma tareas repetitivas, sincronización con el Calendario de Apple y widget de pantalla de inicio. Plan4U se descarga gratis en la App Store.
+Con Premium tienes el **tablero de tareas**: vuelca todo en la Bandeja de entrada o en tus propias listas, mueve cada tarea por Ideas, En curso y Listo, aparca en **Algún día** lo del cuadrante 4 que no quieras borrar y programa tareas desde el tablero en un día concreto. También tienes **banderas de prioridad** (baja, media, alta y urgente), y las de nivel urgente llegan como notificaciones urgentes de iOS, que se saltan el resumen programado: ideales para el cuadrante 1. Para el cuadrante 3, **Enviar a…** te permite pasar una tarea a otra persona con un mensaje: recibe un solo aviso y podéis comentarla en el hilo de la propia tarea. Premium suma tareas repetitivas, sincronización con el Calendario de Apple y widget de pantalla de inicio. Plan4U se descarga gratis en la App Store.
 
 ## Preguntas frecuentes
 

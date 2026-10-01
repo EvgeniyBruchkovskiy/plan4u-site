@@ -89,11 +89,11 @@ Si la procrastinación es constante, afecta a tu trabajo, tus estudios o tus rel
 
 ## Cómo dejar de procrastinar con Plan4U
 
-Plan4U es un calendario, agenda y gestor de tareas para iPhone que puedes descargar gratis en la App Store. Empieza por apuntar la tarea que llevas tiempo esquivando en la **Bandeja de entrada** o en una de tus listas. Después ábrela y añade una **Lista de tareas** dentro, para que «terminar el capítulo 2» se convierta en seis pasos pequeños que vas marcando.
+Plan4U es un calendario, agenda y gestor de tareas para iPhone que puedes descargar gratis en la App Store. Empieza por apuntar la tarea que llevas tiempo esquivando. Después ábrela y añade una **Lista de tareas** dentro, para que «terminar el capítulo 2» se convierta en seis pasos pequeños que vas marcando.
 
-En el tablero de tareas puedes mover cada cosa entre **Ideas**, **En curso**, **Listo** y **Algún día**, y programar una tarea del tablero en un día concreto. También basta con escribir un título con fecha, como «Redactar el primer apartado mañana a las 16», y la app detecta el día y la hora. En la línea de tiempo del día, mantén pulsado un bloque y arrástralo si cambian los planes, o usa la opción de buscar un hueco libre. Un recordatorio por evento y el resumen matinal opcional con tu día también son gratis.
+Para darle un día concreto, basta con escribir un título con fecha, como «Redactar el primer apartado mañana a las 16», y la app detecta el día y la hora. En la línea de tiempo del día, mantén pulsado un bloque y arrástralo si cambian los planes, o usa la opción de buscar un hueco libre. Un recordatorio por evento y el resumen matinal opcional con tu día también son gratis.
 
-Con Premium tienes indicadores de prioridad (los urgentes llegan como notificaciones sensibles al tiempo), un segundo recordatorio, tareas que se repiten, el widget de pantalla de inicio y la opción de invitar a alguien a una tarea: esa persona ve tus avances y podéis comentarlos en el hilo de la propia tarea.
+Con Premium tienes el tablero de tareas: apuntas en la **Bandeja de entrada** o en tus listas, mueves cada cosa entre **Ideas**, **En curso**, **Listo** y **Algún día**, y programas una tarea del tablero en un día concreto. También tienes indicadores de prioridad (los urgentes llegan como notificaciones sensibles al tiempo), un segundo recordatorio, tareas que se repiten, el widget de pantalla de inicio y la opción de invitar a alguien a una tarea: esa persona ve tus avances y podéis comentarlos en el hilo de la propia tarea.
 
 ## Preguntas frecuentes
 

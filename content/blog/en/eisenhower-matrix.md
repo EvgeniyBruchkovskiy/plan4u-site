@@ -99,11 +99,11 @@ The fix is to pair the matrix with [time blocking](/en/blog/time-blocking/). Eac
 
 ## How to use the Eisenhower Matrix in Plan4U
 
-Plan4U is a calendar, planner and task app for iPhone, and the quadrants map onto it naturally. Dump everything into your Inbox or your own task lists. Typing "Call the dentist tomorrow at 3 pm" picks up the date and time automatically. On the task board, tasks move between Ideas, In progress and Done; anything from Q4 you're not ready to delete goes to **Someday**, a parked status you don't look at every day.
+Plan4U is a calendar, planner and task app for iPhone, and the quadrants map onto it naturally. Typing "Call the dentist tomorrow at 3 pm" picks up the date and time automatically. Q4 items you can simply delete.
 
-For Q2, schedule a task from the board onto a specific day, then drag it into place on the day timeline (hold a block and move it). Add a reminder so it doesn't sneak past you, and tick it off when it's done.
+For Q2, give the task a specific day, then drag it into place on the day timeline (hold a block and move it). Add a reminder so it doesn't sneak past you, and tick it off when it's done.
 
-With Premium you get **priority flags** (low, medium, high and urgent), and urgent tasks arrive as time-sensitive notifications, perfect for Q1. For Q3, **Send to…** hands a task to someone else with a message: they get a single push, and you can discuss it in the task's thread. Premium also adds repeating tasks for weekly reviews, Apple Calendar sync and a Home Screen widget. Plan4U is free to download on the App Store.
+With Premium you get the **task board**: dump everything into your Inbox or your own task lists, move tasks between Ideas, In progress and Done, park Q4 items you're not ready to delete under **Someday**, and schedule a task from the board onto a day. You also get **priority flags** (low, medium, high and urgent), and urgent tasks arrive as time-sensitive notifications, perfect for Q1. For Q3, **Send to…** hands a task to someone else with a message: they get a single push, and you can discuss it in the task's thread. Premium also adds repeating tasks for weekly reviews, Apple Calendar sync and a Home Screen widget. Plan4U is free to download on the App Store.
 
 ## FAQ
 
