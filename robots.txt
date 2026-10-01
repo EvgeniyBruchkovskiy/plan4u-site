@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /content/
+Disallow: /scripts/
+
+Sitemap: https://getplan4u.com/sitemap.xml

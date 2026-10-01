@@ -390,6 +390,7 @@
           <a href="#views" data-i18n="nav.features">Features</a>
           <a href="#together" data-i18n="nav.together">Together</a>
           <a href="#premium">Premium</a>
+          <a href="/en/blog/" class="blog-link" data-i18n="nav.blog">Blog</a>
         </div>
         <div class="lang" id="lang">
           <button class="lang-btn" id="langBtn" aria-haspopup="listbox" aria-expanded="false" aria-label="Language">
@@ -804,7 +805,7 @@
     <div class="wrap">
       <div class="brand" style="font-size:16px"><span class="glyph" style="width:24px;height:24px"></span> Plan4U</div>
       <div class="fl">
-        <a href="#ai" data-i18n="nav.smart">Smart input</a><a href="#views" data-i18n="nav.features">Features</a><a href="#premium">Premium</a>
+        <a href="#ai" data-i18n="nav.smart">Smart input</a><a href="#views" data-i18n="nav.features">Features</a><a href="#premium">Premium</a><a href="/en/blog/" class="blog-link" data-i18n="nav.blog">Blog</a>
         <a href="#" data-i18n="footer.privacy">Privacy</a><a href="#" data-i18n="footer.terms">Terms</a>
       </div>
       <div>© 2026 Plan4U</div>
@@ -819,6 +820,7 @@
     "nav.features":{en:"Features",es:"Funciones",ru:"Возможности",uk:"Можливості"},
     "nav.together":{en:"Together",es:"Juntos",ru:"Вместе",uk:"Разом"},
     "nav.download":{en:"Download",es:"Descargar",ru:"Скачать",uk:"Завантажити"},
+    "nav.blog":{en:"Blog",es:"Blog",ru:"Блог",uk:"Блог"},
     "hero.eyebrow":{en:"Calendar · tasks · people",es:"Calendario · tareas · personas",ru:"Календарь · задачи · люди",uk:"Календар · задачі · люди"},
     "hero.h1":{en:"Your whole day — in one <em>beautiful</em> calendar.",es:"Todo tu día — en un <em>bonito</em> calendario.",ru:"Весь твой день — в одном <em>красивом</em> календаре.",uk:"Весь твій день — в одному <em>гарному</em> календарі."},
     "hero.lead":{en:"Plan4U brings your events, tasks, reminders and the people you love into one place. Just say what you need — and the app builds the event for you.",es:"Plan4U reúne tus eventos, tareas, recordatorios y a las personas que quieres en un solo lugar. Solo di lo que necesitas — y la app crea el evento por ti.",ru:"Plan4U собирает события, задачи, напоминания и близких в одном месте. Просто скажи, что нужно — и приложение соберёт событие за тебя.",uk:"Plan4U збирає події, задачі, нагадування та близьких в одному місці. Просто скажи, що потрібно — і застосунок збере подію за тебе."},
@@ -1005,6 +1007,7 @@
     });
     langCur.textContent=lang.toUpperCase();
     var _s=storeUrl(lang); document.querySelectorAll("a.btn-app, a.nav-cta").forEach(function(a){a.href=_s;});
+    document.querySelectorAll("a.blog-link").forEach(function(a){a.href="/"+lang+"/blog/";});
     document.querySelectorAll('#langMenu li').forEach(function(li){
       li.classList.toggle('sel', li.getAttribute('data-lang')===lang);
     });

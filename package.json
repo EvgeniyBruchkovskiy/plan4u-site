@@ -1,0 +1,11 @@
+{
+  "name": "plan4u-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-blog.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
