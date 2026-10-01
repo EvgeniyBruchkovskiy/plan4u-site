@@ -103,11 +103,9 @@ You can mix them freely. Many people time block their mornings, batch the aftern
 
 ## How to time block your day in Plan4U
 
-Plan4U is a calendar and planner for iPhone, and it fits time blocking well. You can type a plain sentence like "Deep work tomorrow 9–11" and the app turns it into an event, picking up the date and time from the text. Your blocks appear on a day timeline: hold a block and drag it to move it, or drag its bottom edge to stretch it when a task needs longer.
+Plan4U is a calendar and planner for iPhone, and it fits time blocking well. You can type a plain sentence like "Deep work tomorrow 9–11" and the app turns it into an event, picking up the date and time from the text. Your blocks appear on a day timeline: hold a block and drag it to move it, or drag its bottom edge to stretch it when a task needs longer. If you need to squeeze something in, the "find a free slot" option suggests the next free time in your day, and a push reminder tells you before a block starts. All of that is free.
 
-If you need to squeeze something in, the "find a free slot" option suggests the next free time in your day. Seven category colors let you color-code deep work, meetings, admin and personal time. Recurring blocks, such as a daily email slot or a weekly review, can repeat every day, every week or every N days. Push reminders tell you before a block starts, and the Home Screen widget shows what's coming next.
-
-Plan4U also syncs with Apple Calendar, supports light and dark themes, and lets you share calendars with family or colleagues. It's free to download, with an optional Premium.
+Premium adds event colors, so you can color-code deep work, meetings, admin and personal time. Recurring blocks, such as a daily email slot or a weekly review, can repeat every day, every week or every N days, and the Home Screen widget shows what's coming next. Premium also brings Apple Calendar sync, light and dark themes, and shared calendars with family or colleagues. The app itself is free to download.
 
 ## FAQ
 

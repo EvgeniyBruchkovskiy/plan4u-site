@@ -114,11 +114,9 @@ Po tygodniu będziesz mieć szablon typowego dnia, który wystarczy lekko dopaso
 
 ## Time blocking w aplikacji Plan4U
 
-Plan4U to kalendarz i planer na iPhone'a, który dobrze sprawdza się przy blokowaniu czasu. Wystarczy wpisać zwykłe zdanie, np. „Praca głęboka jutro 9–11”, a aplikacja sama zamieni je w wydarzenie, rozpoznając datę i godzinę w tekście. Bloki pojawiają się na osi dnia: przytrzymaj blok i przeciągnij, żeby go przesunąć, albo pociągnij za dolną krawędź, żeby go wydłużyć, gdy zadanie potrzebuje więcej czasu.
+Plan4U to kalendarz i planer na iPhone'a, który dobrze sprawdza się przy blokowaniu czasu. Wystarczy wpisać zwykłe zdanie, np. „Praca głęboka jutro 9–11”, a aplikacja sama zamieni je w wydarzenie, rozpoznając datę i godzinę w tekście. Bloki pojawiają się na osi dnia: przytrzymaj blok i przeciągnij, żeby go przesunąć, albo pociągnij za dolną krawędź, żeby go wydłużyć, gdy zadanie potrzebuje więcej czasu. Jeśli musisz coś wcisnąć w napięty dzień, opcja „znajdź wolny termin” podpowie najbliższe wolne okienko, a powiadomienie push przypomni o bloku przed jego startem. To wszystko za darmo.
 
-Jeśli musisz coś wcisnąć w napięty dzień, opcja „znajdź wolny termin” podpowie najbliższe wolne okienko. Siedem kolorów kategorii pozwala oznaczyć pracę głęboką, spotkania, administrację i czas prywatny. Stałe bloki, jak codzienne maile czy cotygodniowy przegląd, możesz powtarzać codziennie, co tydzień albo co N dni. Powiadomienia push przypomną o bloku przed jego startem, a widżet na ekranie początkowym pokaże, co cię czeka.
-
-Plan4U synchronizuje się też z Kalendarzem Apple, ma jasny i ciemny motyw oraz pozwala dzielić kalendarze z rodziną lub współpracownikami. Aplikację pobierzesz za darmo, a Premium jest opcjonalne.
+W Premium dochodzą kolory wydarzeń, którymi oznaczysz pracę głęboką, spotkania, administrację i czas prywatny. Stałe bloki, jak codzienne maile czy cotygodniowy przegląd, możesz powtarzać codziennie, co tydzień albo co N dni, a widżet na ekranie początkowym pokaże, co cię czeka. Premium to także synchronizacja z Kalendarzem Apple, jasny i ciemny motyw oraz wspólne kalendarze z rodziną lub współpracownikami. Samą aplikację pobierzesz za darmo.
 
 ## FAQ
 

@@ -103,11 +103,9 @@ Puedes combinarlas: muchos bloquean las mañanas y agrupan lo pequeño por la ta
 
 ## Cómo hacer time blocking con Plan4U
 
-Plan4U es un calendario y planificador para iPhone que encaja muy bien con el time blocking. Puedes escribir una frase normal como «Trabajo profundo mañana 9–11» y la app la convierte en un evento, reconociendo la fecha y la hora en el texto. Tus bloques aparecen en la línea de tiempo del día: mantén pulsado un bloque y arrástralo para moverlo, o tira de su borde inferior para alargarlo si la tarea necesita más tiempo.
+Plan4U es un calendario y planificador para iPhone que encaja muy bien con el time blocking. Puedes escribir una frase normal como «Trabajo profundo mañana 9–11» y la app la convierte en un evento, reconociendo la fecha y la hora en el texto. Tus bloques aparecen en la línea de tiempo del día: mantén pulsado un bloque y arrástralo para moverlo, o tira de su borde inferior para alargarlo si la tarea necesita más tiempo. Si tienes que meter algo en un día apretado, la opción «buscar hueco libre» te sugiere el siguiente rato disponible, y una notificación push te avisa antes de que empiece un bloque. Todo esto es gratis.
 
-Si tienes que meter algo en un día apretado, la opción «buscar hueco libre» te sugiere el siguiente rato disponible. Con siete colores de categoría puedes distinguir trabajo profundo, reuniones, gestiones y tiempo personal. Los bloques fijos, como el correo diario o la revisión semanal, se pueden repetir cada día, cada semana o cada N días. Las notificaciones push te avisan antes de que empiece un bloque, y el widget de la pantalla de inicio te muestra lo próximo.
-
-Además, Plan4U se sincroniza con el Calendario de Apple, tiene tema claro y oscuro y te permite compartir calendarios con tu familia o tus compañeros. Es gratis en el App Store, con Premium opcional.
+Con Premium tienes colores de evento para distinguir trabajo profundo, reuniones, gestiones y tiempo personal. Los bloques fijos, como el correo diario o la revisión semanal, se pueden repetir cada día, cada semana o cada N días, y el widget de la pantalla de inicio te muestra lo próximo. Premium incluye además la sincronización con el Calendario de Apple, el tema claro y oscuro y los calendarios compartidos con tu familia o tus compañeros. La app se descarga gratis en el App Store.
 
 ## Preguntas frecuentes
 
